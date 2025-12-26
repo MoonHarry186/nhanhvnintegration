@@ -14,7 +14,7 @@ class Nhanhvn_Constants {
         $this->define('NHANHVN_CORE_ABSPATH', dirname(NHANHVN_FILE) . '/core/');
         $this->define('NHANHVN_CORE_API_ABSPATH', NHANHVN_CORE_ABSPATH . 'api/');
         $this->define('NHANHVN_CORE_INCLUDES_ABSPATH', NHANHVN_CORE_ABSPATH . 'includes/');
-        
+        $this->define('NHANH_SECRET_KEY', AUTH_KEY);
     }
 
     /**
